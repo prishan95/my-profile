@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: red;
+}
+
+.logotitle{
+    background: black;
+    color: gold;
+    margin-top: 0px;
+    display: flex;
+    gap: 15%;
+}
+
+.logotitle ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.logotitle .mainbtn li {
+    margin-top: 5%;
+}
+
+.logbtn li {
+    margin-top: 35%;
+}
+
+.logotitle .mainbtn .logbtn, li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.logotitle .mainbtn .logbtn, li a:hover{
+    color: red;
+}
+
+.content h1{
+    color: aliceblue;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.content h2{
+    color: gold;
+    margin: auto;
+    width: 40%;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
